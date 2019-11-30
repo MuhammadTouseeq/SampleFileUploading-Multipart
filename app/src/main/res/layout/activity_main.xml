@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+android:layout_margin="16dp"
+    android:layout_height="match_parent">
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:src="@drawable/logo_transparent"
+    android:layout_height="200dp"/>
+<EditText
+    android:layout_width="match_parent"
+    android:hint="Enter server URl"
+    android:visibility="visible"
+    android:id="@+id/IpAddress"
+    android:layout_height="wrap_content" />
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:id="@+id/img"
+    android:scaleType="fitCenter"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Select Image"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btnSelectImage"
+        android:layout_height="wrap_content" />
+
+    <Button
+      android:layout_width="match_parent"
+      android:text="Upload Image"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        android:id="@+id/btnUploadImage"
+      android:layout_height="wrap_content" />
+
+</LinearLayout>
